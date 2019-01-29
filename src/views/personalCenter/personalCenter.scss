@@ -1,0 +1,252 @@
+$button-getCode-disabled: #D5D5D5;//获取验证码按钮禁用颜色
+$button-getCode: #FE9707;//获取验证码按钮颜色
+$button-next: #09B52D;//提交表单按钮颜色
+$butoon-disabled: #98E0A7;//提交表单按钮禁用颜色
+.personalCenter {
+  margin: 0 auto;
+  .bg-white {
+    background: #FFF;
+    overflow: hidden;
+  }
+  .color-333 {
+    color: #333;
+  }
+  .width215 {
+    width: 215px;
+  }
+  .width340 {
+    width: 340px;
+  }
+  .input-append {
+    float: right;
+    margin: 3px 60px 3px 0;
+  }
+  .content-wrap {
+    overflow: hidden;
+  }
+  .tip {
+    background: #FFFBEA;
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 0.9px;
+    text-align: center;
+    line-height: 44px;
+  }
+  .form-wrap {
+    width: 500px;
+    margin: 60px auto 140px;
+    overflow: hidden;
+    .el-form-item {
+      transition: margin-bottom .3s;
+    }
+    .el-form-item.has-hint {
+      margin-bottom: 0;
+    }
+    .el-form-item__error {
+      padding-top: 8px; 
+    }
+    .has-hint.is-error {
+      margin-bottom: 18px;
+    }
+    .el-form-item__label {
+      line-height: 40px;
+    }
+  }
+  .imgIdCode {
+    width: 115px;
+    height: 34px;
+    line-height: 18px;
+    button {
+      padding: 14px 0 0;
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+      text-decoration: underline;
+    }
+  }
+  .imgCode {
+    height: 100%;
+    width: 100%;
+    border: 1px #CCC solid;
+    border-radius: 2px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .entryTip {
+    width: 500px;
+    font-size: 12px;
+    color: #999;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    margin-top: 8px; 
+  }
+  .extra-entryTip {
+    padding: 8px 0 22px 100px;
+    margin-top: 0;
+    &:nth-last-child(2) {
+      padding-bottom: 0;
+    }
+  }
+  .getCode {
+    padding: 10px 0;
+  }
+  .el-button--primary.getCode {
+    background: $button-getCode;
+    border-color: $button-getCode;
+    span {
+      display: inline-block;
+      width: 115px;
+    }
+  }
+  .el-button--primary.grayBtn {
+    color: #666;
+    background: $button-getCode-disabled;
+    border-color: $button-getCode-disabled;
+  }
+  .button-item {
+    margin: 60px 0 32px;
+    button {
+      background: $button-next;
+      border-color: $button-next;
+    }
+    .el-button--primary.is-disabled {
+      background: $butoon-disabled;
+      border-color: $butoon-disabled;
+    }
+  }
+  .imgCode-dialog {
+    .el-dialog__title {
+      font-family: MicrosoftYaHei-Bold;
+      font-size: 16px;
+      color: #333;
+      letter-spacing: 0.2px;
+      line-height: 16px;
+      font-weight: bold;
+    }
+    .el-dialog__headerbtn {
+      top: 25px;
+    }
+    .el-dialog__header {
+      padding: 23px 24px;
+    }
+    .el-dialog__body {
+      padding: 40px 61px 68px;
+      border-top: 1px #E7E7E7 solid;
+    }
+    .btn-wrap {
+      width: 400px;
+      margin: 60px auto 0;
+      button {
+        font-size: 16px;
+        padding: 14px 183px;
+      }
+    }
+    .input-append {
+      margin: 3px 0;
+    }
+  }
+}
+
+.result {
+  .resultImg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 50px;
+    i {
+      font-size: 60px;
+    }
+    i.el-icon-circle-check {
+      color: #09B52D;
+    }
+    i.el-icon-circle-close {
+      color: #999;
+    }
+  }
+  .resultTip {
+    font-size: 24px;
+    letter-spacing: 0.3px;
+  }
+  .resultTip-vice {
+    font-size: 16px;
+    color: #666;
+    letter-spacing: 0.2px;
+    margin-top: 30px;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+  }
+  .next-button {
+    padding: 14px 167px;
+    background: #09B52D;
+    border-color: #09B52D;
+    font-size: 16px;
+    margin-top: 80px;
+  }
+}
+
+.newPart {
+  background: #fff;
+  .back-btn {
+    font-size: 18px;
+    padding: 30.5px 0 30.5px;
+  }
+  .personal-form {
+    width: 752px;
+    margin: 80px auto;
+  }
+  .group-wrap {
+    border: 1px solid #E7E7E7;
+    margin-bottom: 20px;
+  }
+  .group-title {
+    padding: 15px 20px;
+    border-bottom: 1px solid #E7E7E7;
+  }
+  .group-items {
+    padding: 22px 20px;
+  }
+  .save-btn {
+    padding: 15px 175px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    margin-top: 40px;
+  }
+
+  .el-textarea__inner, .el-input__inner {
+    width: 340px;
+  }
+
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #35B53F;
+    border-color: #35B53F;
+  }
+  .el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #35B53F;
+  }
+  .el-checkbox__input.is-checked + .el-checkbox__label {
+    color: #35B53F;
+  }
+  .el-checkbox {
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 0;
+  }
+
+  .el-tabs__item.is-active {
+    font-family: 'MicrosoftYaHei-Bold';
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+  }
+  .el-tabs__item:hover {
+    color: #35B53F;
+  }
+  .el-tabs__active-bar {
+    background-color: #35B53F;
+  }
+}

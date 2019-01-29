@@ -1,0 +1,12 @@
+{
+    "total": 6,
+    "replyRulesData":[{
+          "rulesName": "规则1",
+          "replyKey": "注册",
+          "replyContent": "欢迎注册注册"
+        },{
+            "rulesName": "规则2",
+            "replyKey": "注册",
+            "replyContent": "欢迎注册注册"
+          }]
+}

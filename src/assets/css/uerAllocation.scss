@@ -1,0 +1,284 @@
+@import '@/assets/css/var.scss';
+.page-useralloc {
+    .color-ddd {
+        color: #ddd;
+    }
+    .height34 {
+        height: 34px;
+    }
+    .width150 {
+        width: 150px;
+    }
+    .width160 {
+        width: 160px;
+    }
+    .width180 {
+        width: 180px;
+    }
+    .width300 {
+        width: 300px;
+    }
+    .width480 {
+        width: 480px;
+    }
+    .minwidth180 {
+        min-width: 180px;
+    }
+    .marginleft18 {
+        margin-left: 18px;
+    }
+    .valigntop {
+        vertical-align: top;
+    }
+    .el-tabs__item {
+        font-size: 16px;
+        color: #999;
+    }
+    .el-tabs__item.is-active {
+        color: #333;
+        font-weight: bold;
+    }
+    .el-tabs__active-bar {
+        background-color: $color-42a84b;
+    }
+    .el-tabs__nav-wrap::after {
+        height: 1px;
+        background-color: $color-d8d8d8;
+    }
+    .header-menu-edit {
+        padding: 9px 20px;
+        border-bottom: 1px solid $color-e6e6e6;
+    }
+    .el-input-number {
+        line-height: 34px;
+    }
+    .el-input-number .el-input__inner {
+        text-align: left;
+        padding-left: 10px;
+    }
+    .el-radio-button__inner {
+        color: $color-333;
+        width: 36px;
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        border-color: $color-cccccc;
+        border-left: 1px solid $color-cccccc;
+        border-radius: 4px;
+        padding: 0;
+    }
+    .el-radio-button:first-child .el-radio-button__inner,
+    .el-radio-button:last-child .el-radio-button__inner {
+        border-radius: 4px;
+    }
+    .el-radio-button__orig-radio:checked+.el-radio-button__inner {
+        border-color: $color-35b53f;
+        background-color: $color-35b53f;
+    }
+    .topNotice {
+        margin-left: 1px;
+        padding: 10px;
+        .width-height-14 {
+            width: 14px;
+            height: 14px;
+        }
+        i {
+            position: relative;
+            top: 2px;
+            background: url('../../assets/img/publicServiceNum/patientvisit-notice.png') center no-repeat;
+            background-size: contain;
+        }
+    }
+    .wrap-custommenu-left {
+        width: 346px;
+        height: 640px;
+        background: url('../../assets/img/publicServiceNum/patientvisit-phonebg.png') center no-repeat;
+        background-size: contain;
+        overflow: hidden;
+        // START-------下拉选择列表
+        .mint-actionsheet {
+            position: absolute;
+            background: #e0e0e0;
+            width: 345px;
+            text-align: center;
+            bottom: -100%;
+            left: 172px;
+            -webkit-transition: bottom .3s ease-out;
+            transition: bottom .3s ease-out;
+            margin: 0 1px;
+        }
+        .appSelectMenuShow {
+            bottom: 2px;
+        }
+        .mint-actionsheet-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .mint-actionsheet-button, .mint-actionsheet-listitem {
+            display: block;
+            width: 100%;
+            height: 45px;
+            line-height: 45px;
+            font-size: 16px;
+            color: #333;
+            background-color: #fff;
+        }
+        .mint-actionsheet-listitem {
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .mint-actionsheet-button, .mint-actionsheet-listitem {
+            display: block;
+            width: 100%;
+            height: 45px;
+            line-height: 45px;
+            font-size: 16px;
+            color: #333;
+            background-color: #fff;
+        }
+        .v-app-modal {
+            position: absolute;
+            left: 0;
+            top: 60px;
+            width: 344px;
+            height: 575px;
+            opacity: .5;
+            background: #000;
+            margin: 0 1px 1px 1px;
+        }
+        // END-------下拉选择列表
+    }
+    .wrap-custommenu-right {
+        margin-left: 24px;
+    }
+    .el-textarea__inner,
+    .el-input__inner {
+        font-family: 'PingFang SC','MicrosoftYaHei';
+        color: $color-333;
+        border-color: $color-cccccc;
+    }
+    .marginleft1 {
+        margin-left: 1px;
+    }
+    .marginright1 {
+        margin-right: 1px;
+    }
+    .wrap-left-appview {
+        height: 575px;
+        margin-right: -3px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        /*滚动条样式*/
+        &::-webkit-scrollbar{
+            width:4px;
+            height:4px;
+        }
+        &::-webkit-scrollbar-track{
+            background: transparent;
+            border-radius:2px;
+        }
+        &::-webkit-scrollbar-thumb{
+            background: #aaa;
+            border-radius:2px;
+        }
+        &::-webkit-scrollbar-thumb:hover{
+            background: #747474;
+        }
+        &::-webkit-scrollbar-corner{
+            background: #f6f6f6;
+        }
+        .el-form-item {
+            margin-bottom: 0;
+            border-top: 1px solid #e2e2e2;
+        }
+        .bordertop-none {
+            border-top: none;
+        }
+        .el-form-item__label {
+            position: relative;
+            top: 4px;
+        }
+        .el-input__inner {
+            margin: 0;
+            border-color: transparent;
+        }
+        .el-textarea__inner {
+            resize: none;
+            border-color: transparent; 
+        }
+        .el-checkbox__label {
+            color: #666;
+        }
+        .el-checkbox__inner {
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            &:after {
+                width: 4.5px;
+                height: 9px;
+                left: 5px;
+            }
+        }
+        .switch-form-item {
+            .el-form-item__content {
+                text-align: right;
+            }
+        }
+        .el-button--text {
+            min-width: auto;
+            padding: 9px 0;
+        }
+        .el-form-item__label {
+            color: #999;
+        }
+    }
+    .border-top-d8d8d8 {
+        border-top: 1px solid $color-d8d8d8;
+    }
+    .el-form-item__label {
+        color: $color-4a4a4a;
+    }
+    .el-breadcrumb {
+        .el-breadcrumb__separator {
+            font-size: 14px;
+            color: $color-333;
+        }
+        .el-breadcrumb__inner {
+            color: $color-333;
+        }
+    }
+    .el-input-number__decrease {
+        color: $color-cccccc;
+        margin-top: 2px;
+        left: auto;
+        right: 41px;
+        background: transparent;
+        border-left: 1px solid $color-cccccc;
+        border-color: $color-cccccc;
+    }
+    .el-input-number__increase {
+        margin-top: 2px;
+        background: transparent;
+        border-left: none;
+        border-color: $color-cccccc;
+    }
+    .wrap-tags {
+        .el-tag {
+            width: 180px;
+            height: 34px;
+            padding: 0 32px 0 14px;
+        }
+        .el-tag__close {
+            position: absolute;
+            right: 14px;
+            top: 9px;
+        }
+    }
+    .el-checkbox__input.is-checked+.el-checkbox__label {
+        color: $color-333;
+    }
+    .el-checkbox__input.is-checked .el-checkbox__inner {
+        background-color: $color-35b53f;
+        border-color: $color-35b53f;
+    }
+}

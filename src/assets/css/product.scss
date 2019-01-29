@@ -1,0 +1,363 @@
+.productExperence{
+    width:100%;
+    height:auto;
+}
+.product{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    min-height:790px;
+    background: url('../../assets/img/authentication/tophead.png') no-repeat;
+    background-size: 100% 689px;
+    margin-top:-70px;
+    position:relative;
+    .media{
+        width:960px;
+        height:540px;
+        margin: 200px auto 0;
+        box-shadow: 0 6px 30px rgba(5,104,26,0.2);
+        .videoTop{
+          width:960px;
+          height:540px;
+        }
+        .videoBottom{
+          position:fixed;
+          width:480px;
+          height:270px;
+          bottom:0;
+          right:0;
+          z-index:999;
+        }
+        .close{
+          display:none;
+        }
+        .showClose{
+          display: block;
+          position:fixed;
+          bottom:230px;
+          right:15px;
+          font-size:20px;
+          cursor:pointer;
+          color:#666666;
+          z-index:9999;
+        }
+        .play{
+            display: block;
+            width:80px;
+            height:80px;
+            margin: 0 auto;
+        }
+    }
+}
+.custom{
+    width:100%;
+    height:674px;
+    background: url('../../assets/img/authentication/bigCircle.png') no-repeat;
+    background-position:0 71px;
+    .customcontent{
+      width:1120px;
+      min-height:322px;
+      margin: 0 auto;
+      clear:both;
+    .custommenus{
+        display:block;
+        float: left;
+        width:620px;
+        height:322px;
+        box-shadow: 0 6px 30px rgba(5,104,26,0.2)
+    }
+    .custommenu{
+        float:left;
+        width:360px;
+        margin:32px 0 0 140px;
+        .servemenu{
+            font-family: PingFangSC-Medium;
+            font-size: 34px;
+            color: #333333;
+            letter-spacing: 0.19px;
+        }
+        .line{
+            background: #35B53F;
+            width:40px;
+            height:4px;
+            margin:10px 0 20px 0;
+        }
+        p{
+            font-family: PingFangSC-Regular;
+            font-size: 20px;
+            color: #666666;
+            letter-spacing: 0.2px;
+            text-align: justify;
+        }
+    }
+    }
+    .middleCircle{
+        float: right;
+    }
+}
+.website{
+    width:100%;
+    height:460px;
+    background:url('../../assets/img/authentication/website.png') no-repeat;
+    background-position:right;
+    margin-top:50px;
+    padding-top:45px;
+    .smallwebsiteContent{
+      min-width:1200px;
+      min-height:322px;
+      margin: 15px auto; 
+    .smallwebsite{
+        width:360px;
+        float: left;
+        margin: 65px 0 0 150px;
+        .webmenu{
+        font-family: PingFangSC-Medium;
+        font-size: 34px;
+        color: #333333;
+        letter-spacing: 0.19px;
+    }
+    .webline{
+        background: #35B53F;
+        width:40px;
+        height:4px;
+        margin:10px 0 20px 0;
+    }
+    p{
+        font-family: PingFangSC-Regular;
+        font-size: 20px;
+        color: #666666;
+        letter-spacing: 0.2px;
+        text-align: justify;
+    }
+    }
+     .webmenuImg{
+        display: block;
+        float:left;
+        width:620px;
+        height:322px;
+        box-shadow: 0 6px 30px rgba(5,104,26,0.2)
+    }
+    }
+    
+}
+.service{
+    width:100%;
+    height:400px;
+    margin-top:112px;
+    .content{
+        width:1120px;
+        min-height:322px;
+        margin: 0 auto;
+        clear:both;
+        .marketImg{
+            display: block;
+            float:left;
+            box-shadow: 0 6px 30px rgba(5,104,26,0.2)
+        }
+        .content-left{
+            float:left;
+            margin-left:140px;
+            margin-top:50px;
+            h1{
+                font-family: PingFangSC-Medium;
+                font-size: 34px;
+                color: #333333;
+                letter-spacing: 0.19px;
+            }
+            .line{
+                width:40px;
+                height:4px;
+                background: #35B53F;
+                margin:10px 0 40px 0;
+            }
+            p{
+                font-family: PingFangSC-Regular;
+                font-size: 20px;
+                color: #666666;
+                letter-spacing: 0.2px;
+                text-align: justify;
+            }
+        }
+    }
+    }
+.login{
+    height:632px;
+    width:100%;
+    clear:both;
+    background:url('../../assets/img/authentication/foot.png') no-repeat;
+    background-size:100% 100%;
+    background-position:left bottom;
+    .login-register{
+        width:1345px;
+        height:auto;
+        overflow:hidden;
+        margin:0 auto;
+        h2{
+          display:block;
+          width:406px;
+          height:56px;
+          margin-top:314px;
+          margin-left:200px;
+          float:left;
+          font-family: PingFangSC-Medium;
+          font-size: 40px;
+          color: #FFFFFF;
+          letter-spacing: 2px;
+          .h2Line{
+            display:block;
+            width:40px;
+            height:4px;
+            margin:8px auto; 
+            background: #FF930D;
+          }
+        }
+        .welcomeTravel{
+            width:384px;
+            height:408px;
+            float:left;
+            margin-top:223px;
+            margin-left:345px;
+            background: rgba(255,255,255,0.96);
+            border-radius: 12px 12px 0 0;
+            z-index:99999;
+            .tabs{
+              width:312px;
+              margin-left:36px;
+              .el-tabs__nav is-top ,.is-stretch{
+                height:70px;
+              }
+              .el-tabs__item is-top,  .is-active{
+                line-height: 70px;
+                font-size: 19.2px;
+                color: #333333;
+                letter-spacing: 0.21px;
+              }
+              .el-tabs__item ,.is-top{
+                line-height: 70px;
+                font-size: 19.2px;
+                color: #333333;
+                letter-spacing: 0.21px;
+              }
+              .el-tabs__active-bar{
+                background: #09B52D;
+              }
+            }
+            .activeBorder{
+              border-bottom:3px solid #09B52D;
+            }
+            .weixinShow{
+              .weixinImg{
+                padding-top:30px;
+                display: block;
+                margin:0 auto;
+              }
+              .sacn{
+                width:100%;
+                display: block;
+                text-align: center;
+                margin-top:22px;
+                font-size: 14px;
+                color:#333;
+              }
+            }
+            @mixin register{
+              width:312px;
+              height:48px;
+              .el-input__inner{
+                height:48px;
+                text-indent: 50px;
+              }
+            }
+            .accountInput{
+              @include register;
+              margin-top:36px;
+              .el-input__inner{
+                background: url('../../assets/img/authentication/account.png') no-repeat;
+                background-position:24px 15px;
+              }
+            }
+            .passwordInput{
+              @include register;
+              margin-bottom:16px;
+              .el-input__inner{
+                background:url('../../assets/img/authentication/password.png') no-repeat;
+                background-position:24px 15px;
+                margin-top:0px;
+              }
+            }
+            .login{
+              width:312px;
+              height:48px;
+              background: #09B52D;
+              border-radius: 4.8px;
+              font-size: 19.2px;
+              color: #FFFFFF;
+              letter-spacing: 0;
+              line-height: 21.6px;
+            }
+            .forgetPassword{
+              cursor: pointer;
+              font-size: 14.4px;
+              color: #666666;
+              width:60px;
+              height:15px;
+              line-height: 15px;
+              display: inline-block;
+              margin-left:147px;
+              margin-top:17px;
+            }
+            .applyRegister{
+              cursor: pointer;
+              font-size: 14.4px;
+              color: #666666;
+              width:60px;
+              height:15px;
+              line-height: 15px;
+              display: inline-block;
+              color: #04730E;
+              margin-left:25px;
+            }
+            .loginSuccess{
+              text-align: center;
+              .welcome{
+                padding-top:30px;
+                padding-bottom:30px;
+                font-size:18px;
+                color:#333333;
+              }
+              .username{
+                padding-top:30px;
+                padding-bottom:30px;
+                font-size:18px;
+                color:#333333;
+              }
+              .configuration{
+                padding-top:30px;
+                font-size:12px;
+                color:#999999;
+              }
+            }
+        }
+    }
+}
+.photo-userlogined {
+      width: 50px;
+      height: 50px;
+      background: url('../../assets/img/index/userphoto-logined.png') center no-repeat;
+      background-size: contain;
+    }
+    .qrcode-wxlogin {
+      iframe {
+        width: 140px !important;
+        height: 140px !important;
+      }
+    }
+    .help-wxlogin {
+      width: 140px;
+      height: 140px;
+      background: url('../../assets/img/index/helplogin.png') center no-repeat;
+      background-size: contain;
+    }
+    video::-webkit-media-controls-panel{
+      background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0.2));
+    }

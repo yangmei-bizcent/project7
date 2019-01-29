@@ -1,0 +1,114 @@
+.addNew{
+    width:100%;
+    height: auto;
+    background:#FFF;
+    h3{
+      font-size: 24px;
+      color: #333333;
+      padding:30px 0 0 40px;
+  }
+    .line{
+        width:100%;
+        height:1px;
+        background: #E6E6E6;
+        margin-top:14px;
+    }
+    .write-information{
+        width:70%;
+        height: auto;
+        margin:40px auto 0;
+        font-size: 14px;
+        color: #333333;
+        letter-spacing: 0;
+        span{
+            color: #3C9EF8;
+        }
+        .how-to{
+            display: block;
+            float: left;
+        }
+        .confirm{
+            background: #35B53F;
+            border-radius: 4px;
+            width:120px;
+            height:34px;
+            font-size: 14px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+        }
+    }
+    .howTo {
+        .ht1{
+            font-size: 14px;
+            color: #333333;
+            letter-spacing: 0.17px;
+            margin-top:30px;
+        }
+        .ht2{
+            font-size: 18px;
+            color: #04730E;
+            letter-spacing: 0.22px;
+            margin:20px 0 30px 0;
+        }
+        .ht3{
+            font-size: 14px;
+            color: #333333;
+            letter-spacing: 0.17px;
+            margin-bottom:20px;
+        }
+        .ht4{
+            width:752px;
+            height: auto;
+            background: #E6F7EA;
+            font-size: 16px;
+            color: #666666;
+            li{
+                width:210px;
+                text-align: right;
+               span{
+                   display: inline-block;
+                   text-indent: 1em;
+                    color: #333333;
+               }
+            }
+        }
+    }
+    h5{
+        font-size: 16px;
+        color: #333333;
+        margin-top:37px;
+    }
+}
+.wx-scan{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    background: #FAFAFA;
+    padding-bottom:40px;
+    img{
+        display: block;
+        float: left;
+        margin-top:40px;
+        margin-left:235px;
+    }
+    .wx-right{
+        float: left;
+        width:400px;
+        height:120px;
+        margin-left:50px;
+        margin-top:40px;
+       font-size: 14px;
+        color: #333333;
+        letter-spacing: 0.2px;
+        .scan{
+            line-height: 20px;
+            background:url('../../../assets/img/authentication/wxicon.png') no-repeat;
+            text-indent:2em;
+            margin-top:40px;
+        }
+        .ask{
+            color: #04730E;
+        }
+    }
+}

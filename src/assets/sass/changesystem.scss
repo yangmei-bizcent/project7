@@ -1,0 +1,166 @@
+@import "color";
+@import "variables";
+@import "font";
+.pt-panel-title {
+  color: $font-color-1;
+  position: relative;
+  line-height: 22px;
+  margin-bottom: 42px;
+  padding-top: 5px;
+  .hospital {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: $fontsize-btn;
+    a {
+      color: $color-blue;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+  .el-breadcrumb {
+    line-height: 22px;
+    font-size: $fontsize-btn;
+  }
+  &:after {
+    content: '';
+    width: 100%;
+    border: none;
+    border-top: $outline-color solid 1px;
+    position: absolute;
+    bottom: -22px;
+    left: 0px;
+  }
+  .bottomgroup {
+    position: absolute;
+    right: 0px;
+    top: -3px;
+  }
+}
+
+.panel {
+  overflow: hidden;
+}
+
+.half-panel {
+  width: 50%;
+  min-height: 500px;
+  float: left;
+  position: relative;
+  .adminform {
+    max-width: 460px;
+    .hasbtn {
+      width: 80%;
+      margin-right: 10px;
+    }
+  }
+  .title {
+    color: $color-blue;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .pointlist>li {
+    position: relative;
+    line-height: 26px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    &:before {
+      content: '';
+      position: absolute;
+      width: 5px;
+      height: 5px;
+      left: 0px;
+      top: 11px;
+      background: $outline-color;
+      border-radius: 50%;
+    }
+  }
+  .search-div {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    height: 430px;
+    box-shadow: 0px 0px 10px #E4E8F1;
+    .search {
+      height: 48px;
+      background: #f1f1f1;
+      position: relative;
+      padding: 7px 10px;
+      input[type=text] {
+        width: 100%;
+        height: 34px;
+        border-radius: 5px;
+      }
+    }
+    .searchlist {
+      .el-checkbox+.el-checkbox {
+        margin-left: 0px
+      }
+      height: 382px;
+      border: #f1f1f1 solid 1px;
+      background: #FFFFFF;
+      padding: 15px;
+      overflow: hidden;
+      position: relative;
+      &>div {
+        padding: 0px 0px 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 15px;
+        cursor: pointer;
+        -moz-user-select: none;
+        /*火狐*/
+        -webkit-user-select: none;
+        /*webkit浏览器*/
+        -ms-user-select: none;
+        /*IE10*/
+        -khtml-user-select: none;
+        /*早期浏览器*/
+        user-select: none;
+      }
+      .iScrollIndicator {
+        background: rgba(0, 0, 0, 0.2)!important
+      }
+    }
+  }
+  &:first-child {
+    border-right: $outline-color solid 1px;
+    padding-right: 40px;
+  }
+  &:last-child {
+    border-left: $outline-color solid 1px;
+    margin-left: -1px;
+    padding-left: 20px;
+  }
+}
+
+.pt-normalpanel {
+  position: relative;
+  margin-bottom: 30px;
+  .title {
+    border-bottom: $outline-color dashed 1px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-bottom: 20px;
+    &:before {
+      content: '';
+      width: 25px;
+      height: 21px;
+      position: absolute;
+      left: 0px;
+      top: 5px;
+      background: url('../../assets/img/titletip.png');
+    }
+  }
+}
+
+.topbtn {
+  margin-bottom: 20px;
+  height: 35px;
+}

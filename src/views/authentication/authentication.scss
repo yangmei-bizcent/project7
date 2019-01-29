@@ -1,0 +1,358 @@
+@import '@/assets/css/var.scss';
+
+.el-button.is-plain:focus,
+.el-button.is-plain:hover {
+  border-color: #67c23a;
+  color: #67c23a;
+}
+
+.authentication {
+  width: 84%;
+  min-width: 1200px;
+  max-width: 1600px;
+  margin: 30px auto;
+  margin-bottom: 190px;
+  background: #fff;
+
+  &::before {
+    content: "";
+    display: table;
+  }
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  a {
+    color: #3C9EF8;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .el-step.is-simple.greenArrow .el-step__arrow {
+
+    &::before,
+    &::after {
+      background: #04730E;
+    }
+  }
+
+  .tipSpace {
+    margin-bottom: 0;
+  }
+
+  .tipSpace.is-error {
+    margin-bottom: 18px;
+    transition: margin-bottom .2s;
+    -moz-transition: margin-bottom .2s;
+    /* Firefox 4 */
+    -webkit-transition: margin-bottom .2s;
+    /* Safari and Chrome */
+    -o-transition: margin-bottom .2s;
+    /* Opera */
+  }
+
+  .el-form-item.is-required .el-form-item__label:before {
+    content: '';
+    color: #f56c6c;
+    margin-right: 4px;
+  }
+
+  .width340 {
+    width: 340px;
+  }
+
+  .el-steps {
+    width: 1100px;
+    margin: 0 auto;
+    background: #F5F7FA;
+    margin: 24px auto;
+
+    .el-step__line-inner {
+      border-style: none;
+    }
+
+    .el-step__head.is-finish,
+    .el-step__title.is-finish {
+      color: #04730E;
+    }
+
+    .el-step__head.is-process,
+    .el-step__title.is-process {
+      font-weight: normal;
+      color: #C0C4CC;
+    }
+
+    .el-icon-upload:before {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: url(../../assets/img/el-icon-upload-gray.png)no-repeat center;
+      background-size: contain;
+    }
+
+    .el-icon-uploaded:before {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: url(../../assets/img/el-icon-upload-green.png)no-repeat center;
+      background-size: contain;
+    }
+
+    .el-icon-upload-success:before {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: url(../../assets/img/el-icon-upload-success-gray.png)no-repeat center;
+      background-size: contain;
+    }
+
+    .el-icon-upload-successed:before {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: url(../../assets/img/el-icon-upload-success-green.png)no-repeat center;
+      background-size: contain;
+    }
+  }
+
+  hr {
+    margin: 0;
+    border: none;
+    height: 1px;
+    background: #D8D8D8;
+  }
+
+  .errorTip {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border-radius: 4px;
+    background: #ffe9e9;
+    margin: 24px auto;
+    text-align: center;
+    color: #ec3a43;
+  }
+
+  .authenTwoContent {
+
+    // width: 84%;
+    // min-width: 1200px;
+    // max-width: 1600px;
+    // margin: 30px auto;
+    // margin-bottom: 190px;
+    // background: #fff;
+    &::before {
+      content: "";
+      display: table;
+    }
+
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    // .el-steps {
+    //   margin: 24px auto;
+    // }
+    // hr {
+    //   margin: 0;
+    //   border: none;
+    //   border-bottom: 1px solid #D8D8D8;
+    // }
+    .el-form {
+      width: 1200px;
+      margin: 80px auto;
+    }
+
+    .uploadImg {
+      position: relative;
+
+      a {
+        position: absolute;
+        top: 0;
+        left: 100px;
+      }
+
+      .el-upload-list__item-name {
+        position: initial;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    .imgIdCode {
+      position: absolute;
+      top: 0;
+      left: 225px;
+
+      .imgCode {
+        width: 115px;
+        height: 34px;
+        margin: 3px 0;
+        font-size: 0;
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .el-button {
+        display: block;
+        margin: 0 auto;
+        padding: 7px 0;
+        text-decoration: underline;
+      }
+    }
+
+    .el-select {
+      width: 340px;
+    }
+
+    .address {
+      width: 352px;
+
+      .el-select {
+        width: 106px;
+      }
+
+      .el-form-item__error {
+        width: 106px;
+      }
+
+      .el-form-item {
+        margin-bottom: 0;
+      }
+    }
+
+    .width215 {
+      width: 215px;
+    }
+
+    .getCode {
+      position: relative;
+      top: -1px;
+      margin-left: 8px;
+      padding: 11px 29px;
+      border: none;
+      background: #FE9707;
+    }
+
+    .grayBtn {
+      color: #666666;
+      background: #D5D5D5;
+    }
+
+    .noOf {
+      color: #3C9EF8;
+    }
+
+    .entryTip {
+      width: 340px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      margin-left: 430px;
+      line-height: 18px;
+      font-size: 12px;
+      color: #999999;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+
+    .address {
+      margin-bottom: 20px;
+    }
+
+    .el-upload {
+      text-align: left;
+    }
+
+    .el-upload__tip {
+      width: 340px;
+      margin-top: 8px;
+      line-height: 18px;
+      font-size: 12px;
+      color: #999999;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+  }
+
+  .checkImg {
+    .el-dialog__header {
+      border-bottom: 1px solid #E7E7E7;
+
+      .el-dialog__title {
+        font-weight: 600;
+      }
+    }
+
+    .el-dialog__body {
+      height: 500px;
+      font-size: 0;
+      overflow-y: auto;
+
+      img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      p {
+        margin: 20px 0 0;
+        line-height: 21px;
+        font-size: 16px;
+        color: #333333;
+        letter-spacing: 0.27px;
+        text-align: center;
+      }
+
+      .middleIns {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .authenAgreement {
+    width: 1100px;
+    height: 463px;
+    margin: 0 auto 58px;
+    border: 1px #E6E6E6 solid;
+  }
+
+  .asfImg {
+    img {
+      width: 100%;
+    }
+  }
+
+  .asfTip {
+    width: 80%;
+    margin: 0 auto;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .asfTip-small {
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .el-button--success {
+    background: $color-09b52d;
+    border-color: $color-09b52d;
+  }
+}

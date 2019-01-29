@@ -1,0 +1,49 @@
+.message-signature {
+  width: 85%;
+  margin: 0 auto;
+
+  .title-wrap {
+    padding: 14px;
+    border-bottom: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .main-title {
+    font-family: 'MicrosoftYaHei-Bold';
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .vice-title {
+    font-size: 14px;
+    color: #666;
+    margin-left: 30px;
+  }
+
+  .el-table--border td,
+  .el-table--border th {
+    border-right: none;
+  }
+
+  .el-table--border th {
+    background: #F2F2F2;
+    color: #666;
+  }
+
+  .table-btn {
+    padding: 0;
+    min-width: 0;
+  }
+
+  .el-dialog__body {
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+  }
+
+  .el-dialog__footer {
+    padding: 16px 24px 20px;
+  }
+}

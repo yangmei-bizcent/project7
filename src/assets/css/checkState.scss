@@ -1,0 +1,39 @@
+.page-title{
+    font-size: 14px;
+    color: #666666;
+}
+.payment-settings{
+  .reminder{
+      text-align: center;
+      background: #FFFFFF;
+      height:auto;
+      img{
+          margin-top:13%;
+      }
+  }
+  p{
+      font-size: 24px;
+      color: #333333;
+      letter-spacing: 0;
+      margin-top:40px;
+  }
+  span{
+      display: block;
+      font-size: 14px;
+      color: #EC3A43;
+      letter-spacing: 0.2px;
+      margin-top:30px;
+  }
+  .confirm{
+      width:300px;
+      height: 46px;
+      background: #09B52D;
+      border-radius: 4px;
+      font-size: 16px;
+      color: #FFFFFF;
+      letter-spacing: 0.2px;
+      line-height: 18px;
+      margin-top:60px;
+      margin-bottom:240px;
+  }
+}

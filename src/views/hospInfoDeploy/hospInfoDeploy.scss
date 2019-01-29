@@ -1,0 +1,214 @@
+.hospInfoDeploy {
+  width: 85%;
+  margin: 0 auto;
+
+  .custom-table {
+    th {
+      font-size: 16px;
+      color: #333;
+      font-weight: 400;
+      background: #f2f2f2;
+    }
+
+    td {
+      color: #666;
+      height: 58px;
+      border-left: none;
+      border-right: none;
+    }
+
+    * {
+      text-align: center;
+    }
+  }
+
+  .max-width200 {
+    max-width: 200px;
+  }
+
+  .widthAuto {
+    width: auto;
+    min-width: auto;
+  }
+
+  &::before {
+    content: "";
+    display: table;
+  }
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .el-textarea__inner {
+    position: relative;
+    font-family: 'PingFang SC', 'MicrosoftYaHei';
+  }
+
+  .el-form-item__content {
+    position: relative;
+
+    a {
+      position: absolute;
+      top: 0;
+      left: 100px;
+      color: #3C9EF8;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .checkImg {
+    .el-dialog__header {
+      border-bottom: 1px solid #E7E7E7;
+
+      .el-dialog__title {
+        font-weight: 600;
+      }
+    }
+
+    .el-dialog__body {
+      font-size: 0;
+      overflow-y: auto;
+
+      img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      p {
+        margin: 20px 0 0;
+        line-height: 21px;
+        font-size: 16px;
+        color: #333333;
+        letter-spacing: 0.27px;
+        text-align: center;
+      }
+
+      .middleIns {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .pageTitle {
+    padding: 34px 22px 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 31px;
+    font-size: 24px;
+    color: #333333;
+
+    span {
+      vertical-align: middle;
+      display: inline-block;
+      width: 80%;
+      margin-left: 30px;
+      font-size: 14px;
+      color: #999;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .cover {
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100px;
+    }
+  }
+
+  .deployContain {
+    min-width: 1000px;
+    padding: 35px 20px 100px;
+    background: #fff;
+
+    .width300 {
+      width: 300px;
+    }
+
+    .hidWidth {
+      width: 950px;
+    }
+
+    .addBtn {
+      margin-bottom: 24px;
+    }
+
+    .hospLogo {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      overflow: hidden;
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+    }
+
+    .phoneNum {
+      margin-bottom: 25px;
+
+      .el-input {
+        width: 300px;
+
+        &:nth-child(2) {
+          width: 430px;
+        }
+      }
+
+      .deletePhone {
+        position: relative;
+        top: -2px;
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin-left: 25px;
+        border-radius: 100px;
+        background: #FFFFFF url(../../assets/img/deletePhone.png) no-repeat center;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+        vertical-align: middle;
+        cursor: pointer;
+
+        &:hover {
+          background: #E6E6E6 url(../../assets/img/deletePhone.png) no-repeat center;
+        }
+      }
+    }
+
+    .addPhone {
+      display: block;
+      width: 32px;
+      height: 32px;
+      border-radius: 100px;
+      background: #FFFFFF url(../../assets/img/addPhone.png) no-repeat center;
+      border: 1px solid #CBCBCB;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+      vertical-align: middle;
+      cursor: pointer;
+
+      &:hover {
+        background: #E6E6E6 url(../../assets/img/addPhone.png) no-repeat center;
+      }
+    }
+  }
+}
